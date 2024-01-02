@@ -1,5 +1,5 @@
 # GitHubActions
-Explore GitHub actions for session in Dev Forum
+Explore GitHub actions for session in Dev Forum with secrets for sganapa2-test-organization
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
   <!-- Snake body -->
