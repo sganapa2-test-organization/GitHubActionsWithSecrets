@@ -45,6 +45,7 @@ jobs:
 
       - name: Login to GitHub Container Registry
         run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
       - name: Push Docker Image to GitHub Container Registry
         run: docker push ghcr.io/${{ github.repository_owner }}/githubactionslearn-0.0.1-SNAPSHOT:latest
 
